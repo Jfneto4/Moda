@@ -104,9 +104,33 @@ header p{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  
 }
 
+@media (max-width:320px){
 
+    header p{
+        color: #CCD9BF;
+        text-align: center;
+        font-size: 25px;
+        margin: 0px;
+    
+        
+      
+    }    
 
+}
 
+@media (max-width:428px){
 
+    header p{
+        color: #CCD9BF;
+        text-align: center;
+        font-size: 30px;
+        margin: 0px;
+    
+        
+      
+    }    
+
+}
