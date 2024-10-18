@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: #42593C;
+}
+
+@font-face{
+    font-family: planta;
+    src:url(./Plante.ttf)
+}
+
+header h1{
+    color: #008035;
+    text-align: center;
+    font-size: 50px;
+    font-family: planta;
+
+}
+
+
+header p{
+    color: #CCD9BF;
+    text-align: center;
+    font-size: 25px;
+    margin: 0 300px;
+
+    
+  
+}
+
+
+.header{
+    background-color: #2C4001;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.box{
+    background-color: #788C30;
+    padding: 20px;
+    width: 100%;
+    margin: 10px;
+
+    text-align: justify;
+    
+}
+
+.box ::selection{
+    background-color: rgb(10, 75, 21);
+    color: rgb(242, 242, 247);
+
+}
+
+
+
+
+.footer{
+    background-color: rgb(23, 85, 4);
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    bottom: 0;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+   
+    
+}
+
+
+.parallax1{
+    background-image: url(https://www.akeneo.com/wp-content/uploads/2023/09/AdobeStock_589899369-scaled.jpeg);
+}
+
+.parallax2{
+    background-image: url(https://www.lavosperformance.com/cdn/shop/articles/ethical-and-sustainable-fashion-why-it-matters-525160.png?v=1632033520&width=1066);
+}
+
+.parallax3{
+    background-image: url(https://images.pexels.com/photos/3850512/pexels-photo-3850512.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.parallax4{
+    background-image: url(https://blog.passaportefashionista.com/wp-content/uploads/2024/01/dicas-de-moda-sustentavel-vista-se-bem-e-proteja-o-planeta.jpg.webp);
+}
+
+.parallax{
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
